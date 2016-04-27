@@ -1,0 +1,331 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+html, body, div, section, article {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  font: 13px/1.5em 'Open Sans', Helvetica, Arial, sans-serif; }
+
+li {
+  list-style: none; }
+
+a {
+  color: #4986e7;
+  text-decoration: none; }
+
+pre {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto; }
+
+.panes.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.panes {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.pane {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #fff; }
+
+.panes.animate > .pane {
+  transition: all .3s;
+  -webkit-transition: all .3s; }
+
+.arrow-tips {
+  width: 40px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -20px;
+  background: url("../images/arrow.png") no-repeat center top;
+  background-size: 40px 14px; }
+
+.download-block {
+  width: 100%;
+  position: absolute;
+  bottom: 70px;
+  left: 0; }
+  .download-block .download-btn {
+    display: block;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    width: 50%;
+    border: 2px solid #ffffff;
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center; }
+
+.pane-item .title-bg {
+  background: url("../images/page-1.jpg") no-repeat center bottom;
+  background-size: cover;
+  width: 100%;
+  height: 70%;
+  font-size: 0; }
+  .pane-item .title-bg img {
+    margin-top: 10%; }
+.pane-item section {
+  min-height: 70px;
+  padding: 10% 0 12%;
+  width: 100%;
+  transform: translate3d(-1000px, 0, 0);
+  -webkit-transform: translate3d(-1000px, 0, 0); }
+  .pane-item section img {
+    width: 100%; }
+.pane-item .animate-area {
+  position: relative;
+  margin: 8% auto 0; }
+.pane-item .page-2 {
+  margin-top: 120px; }
+  .pane-item .page-2 .people {
+    width: 80%; }
+    .pane-item .page-2 .people img {
+      position: absolute;
+      width: 60px;
+      -webkit-transform: scale3d(0, 0, 0);
+      transform: scale3d(0, 0, 0); }
+    .pane-item .page-2 .people .people-1 {
+      top: -55px;
+      left: 15%; }
+    .pane-item .page-2 .people .people-2 {
+      top: -44px;
+      left: 50%;
+      margin-left: -30px; }
+    .pane-item .page-2 .people .people-3 {
+      top: -62px;
+      right: 22%; }
+    .pane-item .page-2 .people .people-4 {
+      top: -46px;
+      right: 12%; }
+  .pane-item .page-2 .dian {
+    width: 30px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    z-index: -1;
+    -webkit-transform: translate3d(0, 19px, 0);
+    transform: translate3d(0, 19px, 0);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #ffffff; }
+  .pane-item .page-2 .quan {
+    position: absolute;
+    z-index: -1;
+    width: 30%;
+    left: 35%;
+    opacity: 0; }
+.pane-item .page-3 .border-round {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto; }
+  .pane-item .page-3 .border-round .img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    z-index: 10; }
+  .pane-item .page-3 .border-round section {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    .pane-item .page-3 .border-round section img {
+      box-sizing: content-box;
+      -webkit-border-radius: 50%;
+      z-index: 2; }
+  .pane-item .page-3 .border-round .round {
+    position: absolute;
+    width: 75px;
+    height: 75px; }
+.pane-item .page-4 .dynamics {
+  text-align: left;
+  width: 50%;
+  height: 218px;
+  margin: 0 auto;
+  background: url("../images/page-4-3.png") no-repeat left center;
+  background-size: 145px 100%; }
+  .pane-item .page-4 .dynamics .football {
+    width: 60px;
+    height: 67px;
+    -webkit-transform: translate3d(45px, 110px, 0);
+    transform: translate3d(45px, 110px, 0); }
+.pane-item .page-4 .phone {
+  position: absolute;
+  width: 120px;
+  height: 227px;
+  top: 30%;
+  left: 50%;
+  margin-left: -60px;
+  z-index: 11; }
+  .pane-item .page-4 .phone .phone-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10; }
+    .pane-item .page-4 .phone .phone-bg .kacha {
+      position: absolute;
+      left: -50px;
+      top: 0;
+      width: 42px; }
+  .pane-item .page-4 .phone .zhezao {
+    background: #000000;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    z-index: 3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px; }
+  .pane-item .page-4 .phone .top {
+    top: 0; }
+  .pane-item .page-4 .phone .bottom {
+    bottom: 0; }
+  .pane-item .page-4 .phone .phone-img {
+    position: absolute;
+    left: -20%;
+    bottom: 5px;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    z-index: 0;
+    max-width: 130%; }
+.pane-item .page-4 .photo {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -70px;
+  width: 140px;
+  height: 227px;
+  z-index: 8; }
+  .pane-item .page-4 .photo .photo-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    opacity: 0; }
+  .pane-item .page-4 .photo .photo-bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 8; }
+  .pane-item .page-4 .photo .reset {
+    -webkit-transform: translate3d(1000px, -500px, 0);
+    transform: translate3d(1000px, -500px, 0);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -15px;
+    top: 9px;
+    background: url("../images/page-4-6.png");
+    background-size: 30px;
+    z-index: 15;
+    text-align: center; }
+    .pane-item .page-4 .photo .reset img {
+      margin-top: 10%;
+      width: 80%; }
+.pane-item .page-5 {
+  margin-top: 5%; }
+  .pane-item .page-5 ul {
+    padding: 0; }
+    .pane-item .page-5 ul li {
+      margin-bottom: 30px;
+      position: relative; }
+      .pane-item .page-5 ul li .boy {
+        width: 23%; }
+      .pane-item .page-5 ul li .boyexpress {
+        position: absolute;
+        height: 73%;
+        top: 10%;
+        left: 19%; }
+      .pane-item .page-5 ul li .boy-say {
+        width: 42%;
+        display: inline-block; }
+      .pane-item .page-5 ul li .girl {
+        width: 23%; }
+      .pane-item .page-5 ul li .girlexpress {
+        position: absolute;
+        height: 30%;
+        top: 10%;
+        right: 19%; }
+      .pane-item .page-5 ul li .girl-say {
+        display: inline-block;
+        width: 42%; }
+
+.page-1-bg {
+  background: url(../images/page-1-bg.jpg) no-repeat center bottom;
+  background-size: cover; }
+
+.page-2-bg {
+  background: url(../images/page-2-bg.jpg) no-repeat;
+  background-size: cover; }
+
+.page-3-bg {
+  background: url(../images/page-3-bg.jpg) no-repeat;
+  background-size: cover; }
+
+.page-4-bg {
+  background: url(../images/page-4-bg.jpg) no-repeat;
+  background-size: cover; }
+
+.page-5-bg {
+  background: url(../images/page-5-bg.jpg) no-repeat;
+  background-size: cover; }
+
+@media (max-height: 440px) {
+  .pane-item section {
+    padding: 10px 0 10px; }
+  .pane-item .animate-area {
+    position: relative;
+    margin: 0 auto; }
+  .pane-item .page-2 {
+    margin-top: 80px; }
+  .pane-item .page-5 {
+    margin-top: 5%; }
+
+  .download-block {
+    bottom: 40px; } }
+
+/*# sourceMappingURL=mobile_home.css.map */
